@@ -1,0 +1,79 @@
+#sidebar {
+  width: 450px;
+}
+
+.panel-heading{
+   width: 450px;
+}
+.panel-body{
+  width: 450px;
+  margin-bottom: 15px;
+}
+.feature-row {
+  cursor: pointer;
+  width: 450px;
+}
+
+/* Query widget */
+#btnRunQuery {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 305px;
+  z-index: 1001;
+}
+
+.pagination, .dataTables_info {
+  font-size: 10px;
+}
+
+/* Shift the Data Tables Search box to the left to fit the narrow sidebar */
+#tblQueryResults_filter {
+  margin-left: -28px;
+  margin-top: 10px;
+}
+
+table.dataTable {
+	font-size: 12px;
+}
+
+div.dataTables_wrapper div.dataTables_paginate {
+	text-align: center;
+}
+
+#drawQueryWidget {
+  display: none;
+  height: 20px;
+  margin-top: 10px;
+}
+
+#queryDrawControlHelp {
+  position: absolute;
+  top: 35px;
+  left: 35px;
+}
+
+.legend {
+  text-align: left;
+  line-height: 18px;
+  color: #555;
+  background-color: #727272;
+  padding: 10px;
+}
+
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+
+.leaflet-bookmarks-control .bookmarks-icon-wrapper {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+
+.leaflet-draw-toolbar .leaflet-draw-draw-circlemarker {
+  display: none;
+}
